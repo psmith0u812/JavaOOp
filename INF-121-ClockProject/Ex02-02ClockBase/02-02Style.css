@@ -11,25 +11,32 @@
 
 .clockbox,
 #clock {
-  width: 100%;
+  width: 90%;
+  height: 300px;
+  max-width: 300px;
+  border-radius:50%
+
 }
 
 /* Clock styles */
+
 .circle {
-  fill: none;
+  fill: grey;
   stroke: #000;
   stroke-width: 9;
   stroke-miterlimit: 10;
+
 }
 
 .mid-circle {
-  fill: #000;
+  fill: #001;
+
 }
 
 .hour-marks {
   fill: none;
   stroke: #000;
-  stroke-width: 9;
+  stroke-width: 4;
   stroke-miterlimit: 10;
 }
 
