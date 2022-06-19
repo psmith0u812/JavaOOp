@@ -1,0 +1,61 @@
+#MyResponsiveImage {
+  background-color: #000;
+  backround-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://pbs.twimg.com/media/EBl4xMuXYAAXuA9?format=jpg&name=900x900");
+}
+
+@media screen and (orientation: portrait) {
+  #MyResponsiveImage {
+    background-image: url("https://pbs.twimg.com/media/EBl4xMuXYAAXuA9?format=jpg&name=900x900");
+
+    background-image:
+      image-set(url("https://pbs.twimg.com/media/EBl4xMuXYAAXuA9?format=jpg&name=900x900") 1x,
+        url("https://pbs.twimg.com/media/EBl4xMuXYAAXuA9?format=jpg&name=900x900") 2x);
+  }
+}
+
+@media screen and (orientation: landscape) {
+  #MyResponsiveImage {
+    background-image: url("https://pbs.twimg.com/media/EBl4xMuXYAAXuA9?format=jpg&name=900x900");
+
+    background-image:
+      image-set(url("https://pbs.twimg.com/media/EBl4xMuXYAAXuA9?format=jpg&name=900x900") 1x,
+        url("https://pbs.twimg.com/media/EBl4xMuXYAAXuA9?format=jpg&name=900x900") 2x);
+  }
+}
+
+@media screen and (min-width: 450px) {
+  #MyResponsiveImage {
+    background-image: url("https://pbs.twimg.com/media/EBl4xMuXYAAXuA9?format=jpg&name=900x900");
+
+    background-image:
+      image-set(url("https://pbs.twimg.com/media/EBl4xMuXYAAXuA9?format=jpg&name=900x900") 1x,
+        url("https://pbs.twimg.com/media/EBl4xMuXYAAXuA9?format=jpg&name=900x900") 2x);
+  }
+}
+
+
+@media screen and (min-width: 750px) {
+  #MyResponsiveImage {
+    background-image: url("https://pbs.twimg.com/media/EBl4xMuXYAAXuA9?format=jpg&name=900x900");
+
+    background-image:
+      image-set(url("https://pbs.twimg.com/media/EBl4xMuXYAAXuA9?format=jpg&name=900x900") 1x,
+        url("https://pbs.twimg.com/media/EBl4xMuXYAAXuA9?format=jpg&name=900x900") 2x);
+  }
+}
+
+html,
+body {
+  margin: 0;
+}
+
+#MyResponsiveImage {
+  padding: 200px 40px;
+  color: #fff;
+  text-shadow: 0 0px 2px #000;
+  font-size: 200%;
+  text-align: center;
+}
